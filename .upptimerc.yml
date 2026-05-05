@@ -21,14 +21,11 @@ status-website:
   theme: night
   introTitle: "**VEXL** System Status"
   introMessage: |
-    <div style="text-align: center;">
-      <img src="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/assets/status-banner.png" 
-           style="width: 100%; max-width: 500px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); margin-bottom: 20px;" 
-           alt="VEXL Infrastructure" />
-    </div>
+    <img src="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/assets/status-banner.png" width="500" style="display: block; margin: 0 auto 20px auto; border-radius: 12px;">
 
     Official real-time monitoring for **VEXL's** Spatial Intelligence infrastructure.
     
+    *نحن نراقب أداء الأنظمة لضمان استمرارية الابتكار المكاني.*
   
   logoUrl: https://www.vexl-gis.tech/logo.png
   faviconUrl: https://www.vexl-gis.tech/favicon.svg
@@ -40,6 +37,7 @@ status-website:
       href: https://vexl-gis.tech/nova-workspace
     - title: Main Site
       href: https://www.vexl-gis.tech
+
 
 workflowSchedule:
   uptime: "*/5 * * * *"
