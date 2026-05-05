@@ -1,26 +1,26 @@
 [
   {
-    "name": "🚀 VEXL Backend API",
+    "name": "VEXL Backend API",
     "url": "https://vexl-website-production.up.railway.app/health",
     "icon": "https://icons.duckduckgo.com/ip3/vexl-website-production.up.railway.app.ico",
     "slug": "vexl-backend-api",
     "status": "up",
-    "uptime": "0.62%",
-    "uptimeDay": "0.62%",
-    "uptimeWeek": "0.62%",
-    "uptimeMonth": "0.62%",
-    "uptimeYear": "0.62%",
-    "time": 106,
-    "timeDay": 106,
-    "timeWeek": 106,
-    "timeMonth": 106,
-    "timeYear": 106,
+    "uptime": "25.21%",
+    "uptimeDay": "25.21%",
+    "uptimeWeek": "25.21%",
+    "uptimeMonth": "25.21%",
+    "uptimeYear": "25.21%",
+    "time": 97,
+    "timeDay": 97,
+    "timeWeek": 97,
+    "timeMonth": 97,
+    "timeYear": 97,
     "dailyMinutesDown": {
       "2026-05-05": 55
     }
   },
   {
-    "name": "🌐 VEXL Official Website",
+    "name": "VEXL Official Website",
     "url": "https://www.vexl-gis.tech",
     "icon": "https://icons.duckduckgo.com/ip3/www.vexl-gis.tech.ico",
     "slug": "vexl-official-website",
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1062,
-    "timeDay": 1062,
-    "timeWeek": 1062,
-    "timeMonth": 1062,
-    "timeYear": 1062,
+    "time": 1087,
+    "timeDay": 1087,
+    "timeWeek": 1087,
+    "timeMonth": 1087,
+    "timeYear": 1087,
     "dailyMinutesDown": {}
   }
 ]
