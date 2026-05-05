@@ -1,45 +1,46 @@
-# 🧠 VEXL NOVA - SYSTEM STATUS CONFIGURATION 
+# 🧠 VEXL STATUS CONFIGURATION 
 owner: bdiaa248
 repo: vexl-status
 
-# الدومين الاحترافي الخاص بك (تأكد من إعداده في لوحة التحكم وربط CNAME)
 cname: status.vexl-gis.tech
  
-# السيرفرات والمواقع التي نراقبها (تم تحديث الرابط الصحيح لـ Railway)
 sites:
-  - name:  VEXL Backend API
+  - name: 🚀 VEXL Backend API
     url: https://vexl-website-production.up.railway.app/health
     method: GET
     expectStatus: 200
   
-  - name:  VEXL Official Website
+  - name: 🌐 VEXL Official Website
     url: https://www.vexl-gis.tech
     method: GET
     expectStatus: 200
 
-# إعدادات واجهة المستخدم (التخصيص والبراندينج)
+# التخصيص الاحترافي للواجهة
 status-website:
-  name: VEXL Nova Status
+  name: VEXL
   theme: night
-  introTitle: "**VEXL Nova** System Status"
+  introTitle: "**VEXL** System Status"
   introMessage: |
-    ![VEXL Infrastructure](https://raw.githubusercontent.com/bdiaa248/vexl-status/master/assets/status-banner.png)
+    <div style="text-align: center;">
+      <img src="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/assets/status-banner.png" 
+           style="width: 100%; max-width: 500px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); margin-bottom: 20px;" 
+           alt="VEXL Infrastructure" />
+    </div>
 
-    Official real-time monitoring for VEXL's Spatial Intelligence infrastructure.
+    Official real-time monitoring for **VEXL's** Spatial Intelligence infrastructure.
     
   
   logoUrl: https://www.vexl-gis.tech/logo.png
-  faviconUrl: https://www.vexl-gis.tech/favicon.ico
+  faviconUrl: https://www.vexl-gis.tech/favicon.svg
   
   navbar:
     - title: Status
       href: /
     - title: Workspace
-      href: https://nova.vexl-gis.tech
+      href: https://vexl-gis.tech/nova-workspace
     - title: Main Site
       href: https://www.vexl-gis.tech
 
-# جدولة الفحص (Ping كل 5 دقائق)
 workflowSchedule:
   uptime: "*/5 * * * *"
   graphs: "0 0 * * *"
