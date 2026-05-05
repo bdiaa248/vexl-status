@@ -18,19 +18,21 @@ sites:
 status-website:
   name: VEXL
   theme: night
+  # السطر السحري لحل مشكلة الأيقونة
+  favicon: /logo-192.png
+  
   introTitle: "VEXL System Status"
   introMessage: |
     <img src="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/assets/status-banner.png" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto 20px auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
 
     Official real-time monitoring for VEXL's Spatial Intelligence infrastructure.
   
-  # Forced Favicon & Headers
   head: |
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/favicon.png">
-    <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/favicon.png">
+    <link rel="icon" type="image/png" href="https://status.vexl-gis.tech/logo-192.png">
+    <link rel="shortcut icon" type="image/png" href="https://status.vexl-gis.tech/logo-192.png">
+    <link rel="apple-touch-icon" href="https://status.vexl-gis.tech/logo-192.png">
   
   logoUrl: https://www.vexl-gis.tech/logo.png
-  faviconUrl: https://www.vexl-gis.tech/logo.png
   
   navbar:
     - title: Status
