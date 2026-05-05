@@ -18,7 +18,8 @@ sites:
 status-website:
   name: VEXL
   theme: night
-  # السطر السحري لحل مشكلة الأيقونة
+  language: en # تحديد اللغة للـ SEO
+  description: "Official real-time system status and uptime monitoring for VEXL's Spatial Intelligence infrastructure."
   favicon: /logo-192.png
   
   introTitle: "VEXL System Status"
@@ -28,9 +29,9 @@ status-website:
     Official real-time monitoring for VEXL's Spatial Intelligence infrastructure.
   
   head: |
-    <link rel="icon" type="image/png" href="https://status.vexl-gis.tech/logo-192.png">
-    <link rel="shortcut icon" type="image/png" href="https://status.vexl-gis.tech/logo-192.png">
-    <link rel="apple-touch-icon" href="https://status.vexl-gis.tech/logo-192.png">
+    <link rel="icon" type="image/png" href="/logo-192.png">
+    <link rel="shortcut icon" type="image/png" href="/logo-192.png">
+    <link rel="apple-touch-icon" href="/logo-192.png">
   
   logoUrl: https://www.vexl-gis.tech/logo.png
   
