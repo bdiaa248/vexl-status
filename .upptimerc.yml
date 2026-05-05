@@ -1,35 +1,33 @@
-# 🌐 VEXL Nova Status Configuration
+# 🧠 VEXL NOVA - SYSTEM STATUS CONFIGURATION
 owner: bdiaa248
 repo: vexl-status
+
+# الدومين الاحترافي الخاص بك
 cname: status.vexl-gis.tech
 
+# السيرفرات والمواقع اللي بنراقبها
 sites:
   - name: 🚀 VEXL Backend API
     url: https://vexl-api.up.railway.app/health
     method: GET
     expectStatus: 200
-
+  
   - name: 🌐 VEXL Official Website
     url: https://www.vexl-gis.tech
     method: GET
     expectStatus: 200
 
-status-page:
-  title: VEXL Nova System Status
-  description: Official real-time monitoring of VEXL's Spatial Intelligence infrastructure.
+# إعدادات شكل صفحة الحالة (البراندينج)
+status-website:
+  title: VEXL Nova Status
+  description: Official real-time monitoring for VEXL's Spatial Intelligence infrastructure.
   theme: dark
   logoUrl: https://www.vexl-gis.tech/logo.png
+  faviconUrl: https://www.vexl-gis.tech/favicon.ico
   
-  navbar:
-    - title: Status
-      href: /
-    - title: Workspace
-      href: https://nova.vexl-gis.tech
-    - title: Website
-      href: https://www.vexl-gis.tech
-
+# التوقيت (فحص كل 5 دقائق)
 workflowSchedule:
-  uptime: "*/5 * * * *" # تشييك كل 5 دقائق
+  uptime: "*/5 * * * *"
   graphs: "0 0 * * *"
   staticSite: "0 1 * * *"
   summary: "0 2 * * *"
