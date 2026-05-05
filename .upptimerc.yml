@@ -24,6 +24,11 @@ status-website:
 
     Official real-time monitoring for VEXL's Spatial Intelligence infrastructure.
   
+  # Forced Favicon & Headers
+  head: |
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/favicon.png">
+  
   logoUrl: https://www.vexl-gis.tech/logo.png
   faviconUrl: https://www.vexl-gis.tech/logo.png
   
