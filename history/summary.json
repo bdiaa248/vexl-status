@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/vexl-api.up.railway.app.ico",
     "slug": "vexl-backend-api",
     "status": "down",
-    "uptime": "5.32%",
-    "uptimeDay": "5.32%",
-    "uptimeWeek": "5.32%",
-    "uptimeMonth": "5.32%",
-    "uptimeYear": "5.32%",
-    "time": 119,
-    "timeDay": 119,
-    "timeWeek": 119,
-    "timeMonth": 119,
-    "timeYear": 119,
+    "uptime": "0.88%",
+    "uptimeDay": "0.88%",
+    "uptimeWeek": "0.88%",
+    "uptimeMonth": "0.88%",
+    "uptimeYear": "0.88%",
+    "time": 93,
+    "timeDay": 93,
+    "timeWeek": 93,
+    "timeMonth": 93,
+    "timeYear": 93,
     "dailyMinutesDown": {
-      "2026-05-05": 4
+      "2026-05-05": 23
     }
   },
   {
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 929,
-    "timeDay": 929,
-    "timeWeek": 929,
-    "timeMonth": 929,
-    "timeYear": 929,
+    "time": 1095,
+    "timeDay": 1095,
+    "timeWeek": 1095,
+    "timeMonth": 1095,
+    "timeYear": 1095,
     "dailyMinutesDown": {}
   }
 ]
