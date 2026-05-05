@@ -1,31 +1,28 @@
-# 🧠 VEXL STATUS CONFIGURATION 
+# VEXL STATUS CONFIGURATION 
 owner: bdiaa248
 repo: vexl-status
 
 cname: status.vexl-gis.tech
  
 sites:
-  - name: 🚀 VEXL Backend API
+  - name: VEXL Backend API
     url: https://vexl-website-production.up.railway.app/health
     method: GET
     expectStatus: 200
   
-  - name: 🌐 VEXL Official Website
+  - name: VEXL Official Website
     url: https://www.vexl-gis.tech
     method: GET
     expectStatus: 200
 
-# التخصيص الاحترافي للواجهة
 status-website:
   name: VEXL
   theme: night
-  introTitle: "**VEXL** System Status"
+  introTitle: "VEXL System Status"
   introMessage: |
-    <img src="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/assets/status-banner.png" width="500" style="display: block; margin: 0 auto 20px auto; border-radius: 12px;">
+    <img src="https://raw.githubusercontent.com/bdiaa248/vexl-status/master/assets/status-banner.png" style="width: 100%; max-width: 500px; height: auto; display: block; margin: 0 auto 20px auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
 
-    Official real-time monitoring for **VEXL's** Spatial Intelligence infrastructure.
-    
-    *نحن نراقب أداء الأنظمة لضمان استمرارية الابتكار المكاني.*
+    Official real-time monitoring for VEXL's Spatial Intelligence infrastructure.
   
   logoUrl: https://www.vexl-gis.tech/logo.png
   faviconUrl: https://www.vexl-gis.tech/favicon.svg
@@ -37,7 +34,6 @@ status-website:
       href: https://vexl-gis.tech/nova-workspace
     - title: Main Site
       href: https://www.vexl-gis.tech
-
 
 workflowSchedule:
   uptime: "*/5 * * * *"
