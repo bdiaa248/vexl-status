@@ -8,7 +8,7 @@ cname: status.vexl-gis.tech
 # السيرفرات والمواقع اللي بنراقبها
 sites:
   - name: 🚀 VEXL Backend API
-    url: https://vexl-api.up.railway.app/health
+    url: https://vexl-website-production.up.railway.app/health
     method: GET
     expectStatus: 200
   
