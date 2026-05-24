@@ -5,21 +5,21 @@
     "icon": "https://icons.duckduckgo.com/ip3/vexl-website-production.up.railway.app.ico",
     "slug": "vexl-backend-api",
     "status": "up",
-    "uptime": "93.84%",
+    "uptime": "94.18%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "95.55%",
-    "uptimeMonth": "93.84%",
-    "uptimeYear": "93.84%",
-    "time": 836,
-    "timeDay": 209,
+    "uptimeMonth": "94.18%",
+    "uptimeYear": "94.18%",
+    "time": 814,
+    "timeDay": 41,
     "timeWeek": 1267,
-    "timeMonth": 836,
-    "timeYear": 836,
+    "timeMonth": 814,
+    "timeYear": 814,
     "dailyMinutesDown": {
-      "2026-05-20": 348,
-      "2026-05-19": 100,
+      "2026-05-05": 55,
       "2026-05-12": 1037,
-      "2026-05-05": 55
+      "2026-05-20": 348,
+      "2026-05-19": 100
     }
   },
   {
@@ -33,11 +33,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1059,
-    "timeDay": 1252,
-    "timeWeek": 1197,
-    "timeMonth": 1059,
-    "timeYear": 1059,
+    "time": 1067,
+    "timeDay": 1341,
+    "timeWeek": 1194,
+    "timeMonth": 1067,
+    "timeYear": 1067,
     "dailyMinutesDown": {}
   }
 ]
