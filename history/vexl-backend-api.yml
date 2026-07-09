@@ -1,7 +1,7 @@
 url: https://vexl-website-production.up.railway.app/health
-status: down
-code: 404
-responseTime: 138
-lastUpdated: 2026-07-09T00:17:56.589Z
+status: up
+code: 200
+responseTime: 1138
+lastUpdated: 2026-07-09T01:21:26.946Z
 startTime: 2026-05-05T20:38:40.036Z
 generator: Upptime <https://github.com/upptime/upptime>
